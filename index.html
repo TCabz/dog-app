@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Dog Breed Info Website</title>
+  
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+  </script>
+
+  <style>
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: lightgrey;
+      width: auto;
+      border: 5px solid forestgreen;
+      padding: 50px;
+      margin: 20px;
+      align-self: auto;
+    }
+
+    h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    align-self: auto;
+    }
+
+    </style>
+</head>
+
+<body>
+  <form>
+      <input type="text" placeholder="breed"/>
+  </form>
+
+  <h1>Dog Breed Information</h1>
+  <h2>An Easy to Naviagte Website that Displays Information about Dog Breeds</h2>
+  <H3>Choose a Breed or Category.</H3>
+      
+  <dl>
+      <dt>Breed Name</dt>
+      <dd id="BreedName"></dd>
+      <dt>Category</dt>
+      <dd id="Category"></dd>
+  </dl>
+
+  <script src="app.js"></script>
+</body>
+</html>
