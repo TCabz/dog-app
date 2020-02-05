@@ -1,56 +1,43 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-  <title>Dog Breed Info Website</title>
-  
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous">
-  </script>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <style>
-    h1 {
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: lightgrey;
-      width: auto;
-      border: 5px solid forestgreen;
-      padding: 50px;
-      margin: 20px;
-      align-self: auto;
-    }
+   <title>SEIR 123 P1 Dog App</title>
 
-    h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    width: auto;
-    align-self: auto;
-    }
-
-    </style>
+   <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+   </script>
+   
+   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <form>
-      <input type="text" placeholder="breed"/>
-  </form>
+   <h1 class="ml16">For the Dog Lover</h1>
 
-  <h1>Dog Breed Information</h1>
-  <h2>An Easy to Naviagte Website that Displays Information about Dog Breeds</h2>
-  <H3>Choose a Breed or Category.</H3>
-      
-  <dl>
-      <dt>Breed Name</dt>
-      <dd id="BreedName"></dd>
-      <dt>Category</dt>
-      <dd id="Category"></dd>
-  </dl>
-
-  <script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+   <div id="Header">
+      <p>Choose a Breed from the Menu Below for Information</p>
+      <select class="breedChosen"><option></option></select>
+   </div>
+   
+   <div id="breedData">
+      <img id="breedImage" src="" />
+      <table id="breedDataTable"></table>
+   </div>
+   <div class = slider-container>
+      <span id = ""></span>
+      <div class= button-container">
+         <img scr="" class="slider-image">
+      </div>
+      <div class= "button-container">
+         <a href="slider-image" class= "slider-button"></a>
+   <script src="app.js"></script>
 </body>
 </html>
